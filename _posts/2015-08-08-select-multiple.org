@@ -1,0 +1,17 @@
+#+LAYOUT: default
+#+IMG: select-multiple.png
+#+CATEGORY: Blog
+#+TITLE: <a href="http://krazedkrish.com/select-multiple">Select Multiple</a>
+
+This is an awesome user-friendlier drop-in replacement for the standard *<select>* with multiple attribute activated.
+
+** Features:
+- Free (under MIT license)
+- Works in an unobtrusive fashion
+- Fully open sourced
+- Keyboard support
+- Provides some callbacks
+- Fully customizable via CSS
+- Depends on jQuery 1.8+
+- Tiny code ~8kb minified
+- [[https://github.com/krazedkrish/select-multiple-rails][gem for Rails]]
