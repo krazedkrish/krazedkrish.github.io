@@ -1,3 +1,6 @@
 [submodule "_site"]
 	path = _site
 	url = git@github.com:krazedkrish/krazedkrish.github.io.git
+[submodule "_plugins/jekyll-org"]
+	path = _plugins/jekyll-org
+	url = https://github.com/eggcaker/jekyll-org.git
