@@ -48,13 +48,13 @@
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
             <ul class="nav navbar-nav">
               <li>
-                    <a class="page-scroll" href="/#about">About</a>
+                    <a class="page-scroll" href="#about">About</a>
                 </li>
                 <li>
-                    <a class="page-scroll" href="/#recent">Recent Works</a>
+                    <a class="page-scroll" href="#recent">Recent Works</a>
                 </li>
                 <li>
-                    <a class="page-scroll" href="/#contact">Contact</a>
+                    <a class="page-scroll" href="#contact">Contact</a>
                 </li>
             </ul>
             <ul class="nav navbar-nav navbar-right">
@@ -116,29 +116,56 @@
           <br/><br/>
           <h2>About Me</h2>
           <h3><em>Shalil Awaley</em></h3>
-          <br/>
-          <p>Linux is by far my favourite Operating System. You might call me a linux fan.</p>
-          <p>Being a system admin was my aim untill I realized, I am skilled at understanding Codes and modifying them.</p>
-          <p>Recently, I have restarted my career as a web app developer specializing in Ruby on Rails.</p>
-          <br/>
+          <h4>
+            <a href="https://twitter.com/krazedkrish" target="_blank">@krazedkrish
+            </a>
+          </h4>
+          <p>I am a <em>rails enthiast</em> and a software engineer by profession.</p>
+          <p>Arch Linux is by far my favourite Operating System. You might call me a linux fan.</p>
+          <p>I have had of 1 year experience for system admin, untill I realized, I am skilled at understanding Codes and modifying them.</p>
+          <p>Now, I am a web app developer specializing in Ruby on Rails, with the skills for TDD, fullstack development and automated deployment.</p>
+          <p>I also write
+            <strong>
+              <a href="/blog" id="check-blog" data-sr="over 2s">
+                some tech. blogs
+              </a>
+            </strong>
+            as <g></g>uides, so that others dont suffer the same problems that i did.
+          </p>
         </div>
       </div>
+      <section id="opensource-contrib-section">
+      <br/>
+      <div class="row" data-sr="scale up 20%, over 2s">
+        <button id="opensource-contrib" class="btn btn-default btn-lg">
+          See my opensource contributions
+        </button>
+        <div id="opensource-contrib-panel">
+        </div>
+      </div>
+      <br />
+      </section>
     </section>
 
 		<section id="recent">
 <!-- Page Content -->
 
-  
-    
     <div class="content-section-a">
 
         <div class="container">
 
+            <div class="row" align="center"">
+                <h1> Recent Project </h1>
+            </div>
             <div class="row">
                 <div class="col-lg-5 col-sm-6">
-                    <hr class="section-heading-spacer">
                     <div class="clearfix"></div>
                     <h2 class="section-heading"><a href="http://krazedkrish.com/select-multiple">Select Multiple</a></h2>
+                    <hr class="section-heading-spacer">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-5 col-sm-6">
                     <div class="lead">
 <p>This is an awesome user-friendlier drop-in replacement for the standard <b>&lt;select&gt;</b> with multiple attribute activated.</p>
 <h2>Features:</h2>
@@ -161,13 +188,19 @@
                     <img class="img-responsive" src="img/works/select-multiple.png" alt="">
                 </div>
             </div>
-
+            <div class="row">
+              <div class="col-lg-5 col-sm-6" data-sr="enter left, hustle 20px">
+                    <a href="/projects/" class="btn btn-default btn-lg" id="more-projects">
+                        More projects ...
+                    </a>
+                </div>
+            </div>
         </div>
         <!-- /.container -->
 
     </div>
     <!-- /.content-section-a -->
-    
+
 
 </section>
 
@@ -238,6 +271,12 @@
 
 <!-- Bootstrap Core JavaScript -->
 <script src="/js/bootstrap.min.js"></script>
+
+<!-- show balloon popup jquery -->
+<script src="js/jquery.balloon.min.js"></script> 
+
+<!-- scroll effect -->
+<script src='/js/scrollReveal.min.js'></script>
 
 <!-- Custom Theme JavaScript -->
 <script src="/js/landing-page.js"></script>

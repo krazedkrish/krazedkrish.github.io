@@ -6,6 +6,7 @@
 
 body,
 html {
+    font-size: 15px;
     width: 100%;
     height: 100%;
 }
@@ -174,7 +175,7 @@ a:hover.social, a:focus.social {
 }
 
 a {
-    color: #404040;
+    color: #337AB7;
 }
 a:hover,
 a:focus {
@@ -190,7 +191,7 @@ a img:focus {
     position:relative;
     margin-bottom:0;
     padding-bottom:.5em;
-    border-bottom:1px solid #eee
+    border-bottom:1px solid #C8C8C8
 }
 
 .floating-label-form-group input,.floating-label-form-group textarea{
