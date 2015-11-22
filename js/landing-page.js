@@ -7,11 +7,23 @@ $(function() {
         $('html, body').stop().animate({
             scrollTop: $($anchor.attr('href')).offset().top
         }, 1500, 'easeInOutExpo');
-        debugger;
-        console.log($($anchor.attr('href')))
         event.preventDefault();
     });
 
+    $('#opensource-contrib-btn').bind('click', function(event) {
+        $('#opensource-contrib-panel').html('<iframe src="http://ghv.artzub.com/#repo=select-multiple&climit=100&user=krazedkrish" width="100%" height="570px"></iframe>' );
+        $('#opensource-contrib-panel').slideDown( "slow");
+        $('#opensource-contrib').slideUp("slow");
+        $('#opensource-contrib').html('');
+        $('html, body').stop().animate({
+            scrollTop: $('#opensource-contrib-panel').offset().top-100
+        });
+    });
+
+    $('#opensource-contrib-panel').balloon({
+        contents: "<h4>Select repository and analyse</h4>"
+    });
+    
     window.sr= new scrollReveal({
         reset: true,
         move: '50px',
