@@ -167,33 +167,40 @@ p.copyright {
     margin: 15px 0 0;
 }
 
-p a {
+a {
   color: #477b96;
   text-decoration: underline;
 }
 
-p a:hover {
-    text-decoration: none;
+a:hover {
+  text-decoration: none;
 }
 
 a.social {
-    color: #333;
+  color: #333;
 }
 
 a:hover.social, a:focus.social {
-    color: #0085A1;
+  color: #0085A1;
 }
 
-a {
-    color: #404040;
+li.next a, li.previous a, h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
+  color: #404040;
+  text-decoration: none;
 }
+
 a:hover,
 a:focus {
-    color: #0085a1;
+  color: #0085a1;
 }
+
 a img:hover,
 a img:focus {
-    cursor: zoom-in;
+  cursor: zoom-in;
+}
+
+nav a{
+  text-decoration: none;
 }
 
 .floating-label-form-group{
@@ -298,6 +305,7 @@ p.contact-message {
     color: #f8f8f8;
     background: url(../img/intro-bg.jpg) no-repeat center center;
     background-size: cover;
+    margin-bottom: 0;
 }
 
 .page-message {
@@ -331,6 +339,7 @@ hr.small {
 
 .post-preview > a {
     color: #404040;
+    text-decoration: none;
 }
 .post-preview > a:hover,
 .post-preview > a:focus {
@@ -462,6 +471,12 @@ blockquote {
   border-bottom-left-radius: 5px;
 }
 
+.footer-divider {
+  border-color: #ddd;
+  margin-top: -50px;
+  margin-bottom: 50px;
+}
+
 .comment-link {
   color: #9ba2af;
   font-size: 0.83333em;
@@ -483,4 +498,16 @@ blockquote {
 
 .post-detailed-preview-header {
   background-color: #fff
+}
+
+.no-decoration {
+  text-decoration: none;
+}
+
+#blog {
+  border-bottom: 1px solid #e7e7e7;
+}
+
+a .post-heading {
+  color: #404040;
 }
