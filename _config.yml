@@ -28,3 +28,5 @@ social:
     url: https://github.com/krazedkrish
   - title: linkedin
     url: https://np.linkedin.com/pub/shalil-awaley/69/618/b21
+
+gems: [jekyll-sitemap]
