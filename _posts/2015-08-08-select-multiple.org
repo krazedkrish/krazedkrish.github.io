@@ -1,7 +1,7 @@
 #+LAYOUT: default
 #+IMG: select-multiple.png
 #+CATEGORY: Blog
-#+TITLE: <a href="http://krazedkrish.com/select-multiple">Select Multiple</a>
+#+TITLE: <a href="/select-multiple">Select Multiple</a>
 
 This is an awesome user-friendlier drop-in replacement for the standard *<select>* with multiple attribute activated.
 
